@@ -1,4 +1,3 @@
-  chryswoods.com
 Committing Changes
 Let’s take a look again at the output of git status.
 # On branch master
@@ -49,6 +48,6 @@ Save and exit from the text editor, and you should then see output that looks si
 This output is Git telling you that it has committed a change that involved one file, which contained ten new lines of text.
 Now, finally, we can use git status to see what Git now knows about this directory. You should see something like
 # On branch master
-nothing to commit, working directory clean
+nothing to commit, working tree clean
 This is Git telling you that there are no unrecorded, uncommitted changes present in this directory. Note that Git refers to versioned_dir as the “working directory”. This is an important piece of terminology. The “working directory” is the term we use to refer to a directory that is being version controlled.
 A “clean” working directory is one for which all changes have been committed, while a “dirty” working directory is one that contains changes that have not yet been committed (i.e. recorded/saved).
